@@ -12,14 +12,14 @@ const apiStatusConstants = {
 
 const ProfileDetails = props => {
   const renderProfile = () => {
-    const {profileDetails} = props
-    const {name, profileImageUrl, shortBio} = profileDetails
+    
+    
 
     return (
       <div className="profile-details-container">
-        <img src={profileImageUrl} alt="profile" className="profile-image" />
-        <h1 className="profile-name">Santosh Kumar</h1>
-        <p className="profile-bio">{shortBio}</p>
+        <img src="https://cdn1.iconfinder.com/data/icons/avatars-1-5/136/60-512.png" alt="profile" className="profile-image" />
+        <h1 className="profile-name">DADI SANDHYA</h1>
+        <p className="profile-bio">Aspiring Software Developer and Tech Enthusiastic</p>
       </div>
     )
   }
